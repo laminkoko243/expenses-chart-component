@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color:  hsl(27, 66%, 92%);
+}
+
+.row {
+    padding-top: 80px;
+    
+}
+
+.balance {
+    width: 40%;
+    margin:auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: hsl(27, 66%, 92%);
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.balance h3 {
+    color: hsl(27, 66%, 92%);
+    padding-bottom: 10px;
+}
+
+.balance p, .total-col-1 p {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.total-col-2 p {
+    font-weight: 700;
+}
+
+.expense-row {
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.expense-row h2 {
+    font-size: 40px;
+}
+
+.bar-chart {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between ;
+    align-items: flex-end;
+    padding-bottom: 40px;
+    border-bottom: 1px solid hsl(28, 10%, 53%) ;
+}
+
+.bar-chart .bar-gp {
+    margin-top: 10px;
+    width: 80px;
+}
+
+div.txt {
+    background-color: black;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 4px;
+    font-weight: 700;
+    visibility: hidden;
+}
+
+div.txt p {
+    color:hsl(27, 66%, 92%);
+}
+
+.display {
+    visibility: visible;
+}
+
+span {
+    display: inline-block;
+    background-color: hsl(10, 79%, 65%);
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+/* span.mon {
+    height: 33.3px;
+} */
+
+/* span.tue {
+    height: 133.4px;
+} */
+
+/* span.wed {
+    height: 200px;
+    background-color: hsl(186, 34%, 60%);
+} */
+
+/* span.thu {
+    height: 118.6px;
+} */
+
+/* span.fri {
+    height: 89.4px;
+} */
+
+/* span.sat {
+    height: 165.4px;
+} */
+
+/* span.sun {
+    height: 97.4px;
+} */
+
+.bar-gp .txt p {
+    height: 30px;
+}
+
+.bar-gp p {
+    color: hsl(28, 10%, 53%);
+    text-align: center;
+}
+
+.total-row {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.total-col-2 {
+    text-align: right;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: hsl(28, 10%, 53%);
+}
+
+.attribution {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 480px) {
+    .row {
+        padding-top: 30px;   
+    }
+
+    .balance {
+        width: 90%;
+        margin:auto;
+        padding: 20px;
+    }
+
+    .balance h3 {
+        padding-bottom: 0px;
+    }
+
+    .balance p, .total-col-1 p {
+        font-size: 28px;
+    }
+
+    .expense-row {
+        width: 90%;
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .expense-row h2 {
+        font-size: 25px;
+    }
+
+    .bar-chart {
+        align-items: flex-end;
+        padding-bottom: 20px;
+    }
+
+    .bar-chart .bar-gp {
+        margin-top: 50px;
+        width: 30px;
+    }
+
+    div.txt {
+        margin: 8px 0;
+        border-radius: 2px;
+        font-size: 8px;
+    }
+
+    .bar-gp .txt p {
+        font-size: 9px;
+        height: 15px;
+    }
+
+    .bar-gp .day {
+        font-size: 11px;
+    }
+
+    .total-row {
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+}

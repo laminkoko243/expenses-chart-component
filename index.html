@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="stylesheet" href="style.css"> <!-- External CSS -->
+</head>
+<body>
+
+  <div class="row">
+    <div class="balance">  <!-- Balance Card-->
+      <div class="balance-col-1">
+        <h3>My balance</h3>
+        <p class="">$921.48</p>
+      </div>
+      <div class="balance-col-2">
+        <img src="images/logo.svg" alt="Logo" class="logo-img">
+      </div>
+    </div>
+
+      <div class="expense-row">
+        <h2>Spending - Last 7 days</h2>
+        <div class="bar-chart">
+          <div id="bar-gp-0" class="bar-gp">
+            <div id="txt-0" class="txt"><p id="amount-0"></p></div>
+            <span id="span-0" class="mon"></span>
+            <p id="day-0" class="day"></p>
+          </div>
+          <div id="bar-gp-1" class="bar-gp">
+            <div id="txt-1" class="txt"><p id="amount-1"></p></div>
+            <span id="span-1" class="tue"></span>
+            <p id="day-1" class="day"></p>
+          </div>
+          <div id="bar-gp-2" class="bar-gp">
+            <div id="txt-2" class="txt"><p id="amount-2"></p></div>
+            <span id="span-2" class="wed"></span>
+            <p id="day-2" class="day"></p>
+          </div>
+          <div id="bar-gp-3" class="bar-gp">
+            <div id="txt-3" class="txt"><p id="amount-3"></p></div>
+            <span id="span-3" class="thu"></span>
+            <p id="day-3" class="day"></p>
+          </div>
+          <div id="bar-gp-4" class="bar-gp">
+            <div id="txt-4" class="txt"><p id="amount-4"></p></div>
+            <span id="span-4" class="fri"></span>
+            <p id="day-4" class="day"></p>
+          </div>
+          <div id="bar-gp-5" class="bar-gp">
+            <div id="txt-5" class="txt"><p id="amount-5"></p></div>
+            <span id="span-5" class="sat"></span>
+            <p id="day-5" class="day"></p>
+          </div>
+          <div id="bar-gp-6" class="bar-gp">
+            <div  id="txt-6" class="txt"><p id="amount-6"></p></div>
+            <span id="span-6" class="sun"></span>
+            <p id="day-6" class="day"></p>
+          </div>
+        </div>
+        <div class="total-row">
+          <div class="total-col-1">
+            <h3>Total this month</h3>
+            <p>$478.33</p>
+          </div>
+          <div class="total-col-2">
+            <p>+2.4%</p>
+            <h3>from last month</h3>
+          </div>
+        </div>
+      </div>
+  </div>  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.laminkoko.com">La Min Ko Ko</a>.
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="data.json"></script>
+  <script src="script.js"></script>
+</body>
+</html>
