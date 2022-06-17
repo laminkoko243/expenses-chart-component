@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/laminkoko243/expenses-chart-/)
-- Live Site URL: [Add live site URL here](https://laminkoko243.github.io/expenses-chart-/)
+- Solution URL: [Add solution URL here](https://github.com/laminkoko243/expenses-chart-component/)
+- Live Site URL: [Add live site URL here](https://laminkoko243.github.io/expenses-chart-component/)
 
 ## My process
 
